@@ -1,0 +1,46 @@
+		aal1		African American Library at the Gregory School
+		aaa1		Alexander Architectural Archive, University of Texas at Austin
+		ahc1		Austin History Center
+		apts1		Austin Presbyterian Theological Seminary
+		lac1		Benson Latin American Collection, University of Texas at Austin
+		babl1		Baylor University, Armstrong Browning Library		
+		bkc1		Baylor University, Keston Center for Religion, Politics, and Society
+		bpll1		Baylor University, Political Materials at the W.R. Poage Legislative Library
+		btc1		Baylor University, The Texas Collection		
+		cu1			Concordia University Texas Historical Online Collection
+		tamu1		Cushing Memorial Library, Texas A &amp; M University
+		drt1		Daughters of the Republic of Texas Library at the Alamo
+		cah1		Dolph Briscoe Center for American History, University of Texas at Austin
+		hrc1		Harry Ransom Humanities Research Center, University of Texas at Austin
+		tmc1		Houston Academy of Medicine-Texas Medical Center Library
+		houpub1		Houston Public Library, Houston Metropolitan Research Center
+		hrdi1		Human Rights Documentation Initiative, University of Texas at Austin
+		lu1			Lamar University, Archives and Special Collections
+		ojac1		Robert E. Nail, Jr. Historical Archives at Old Jail Art Center
+		sama1		San Antonio Municipal Archives
+		sjmh1		San Jacinto Museum of History
+		smu1		Southern Methodist University
+		tech1		Southwest Collection/Special Collections Library, Texas Tech University
+		tcc1		Special Collections and Archives, Texas A&amp;M University-Corpus Christi
+		law1		Tarlton Law Library, University of Texas at Austin
+		tk1			Texas A &amp; M University Kingsville, South Texas Archives
+		dpub1		Texas/Dallas History and Archives Division, Dallas Public Library
+		glo1		Texas General Land Office Archives and Records
+		tslac1		Texas State Library and Archives
+		tsu1		Texas State University
+		twu1		Texas Woman's University, the Woman's Collection
+		thl1		Tyrrell Historical Library, Beaumont Public Library System
+		houston1	University of Houston Libraries, Special Collections
+		unt1		University of North Texas Archives
+		mlsc1		University of North Texas Music Library Special Collections
+		ust1		University of St. Thomas Archives
+		utarl1		University of Texas at Arlington Libraries, Special Collections
+		utep1		University of Texas at El Paso
+		hscsa1		University of Texas Health Science Center at San Antonio
+		lsc1		University of Texas H. J. Lutcher Stark Center
+		utmda1		University of Texas M.D. Anderson Cancer Center
+		utmb1		University of Texas Medical Branch – Moody Medical Library
+		utsa1		University of Texas at San Antonio
+		tyl1		University of Texas at Tyler, University Archives and Special Collections
+		tva1		Vietnam Center and Archive, Texas Tech University
+		rice1		Woodson Research Center, Rice University

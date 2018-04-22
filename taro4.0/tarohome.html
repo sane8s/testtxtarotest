@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">  
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>TARO</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+ <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="tarohome.html">TARO</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="about.html">About</a></li>
+        <li><a href="news.html">Latest News</a></li>
+        <li><a href="join.html">Join</a></li>
+		<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Examples
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="taro-finding-aid.html">Finding Aid Page</a></li>
+          <li><a href="taro-fa-list.html">Repository Page</a></li>
+
+        </ul>
+      </li>
+      </ul>
+    <form class="navbar-form navbar-right">
+        <div class="form-group">
+            <input type="text" placeholder="Search TARO" class="form-control">
+        </div>
+
+        <button type="submit" class="btn btn-success">Search</button>
+    </form>
+    </div>
+  </div>
+</nav> 
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Texas Archival Resources Online</h1>
+ <!-- TARO Search Form Below -->
+
+<div class="col-sm-8 col-sm-offset-2">  
+<form>
+  <div class="form-group">
+	<input class="form-control input-lg" id="IXsearchArg" name="searchArg" placeholder="Search TARO" size="60" type="text">
+	<!-- Empty search box default search all -->
+  </div>
+  <div class="form-group">
+  <select class="form-control" id="exampleFormControlSelect1">
+       <option value="browse/index.html">Search All TARO Repositories</option>
+       <option value="browse/browse_aal1.html">African American Library at the Gregory School</option>                   	
+	   <option value="browse/browse_aaa1.html">Alexander Architectural Archive, University of Texas at Austin</option>
+       <option value="browse/browse_ahc1.html">Austin History Center</option>
+       <option value="browse/browse_apts1.html">Austin Presbyterian Theological Seminary</option>
+       <option value="browse/browse_lac1.html">Benson Latin American Collection, University of Texas at Austin</option>
+       <option value="browse/browse_babl1.html">Baylor University, Armstrong Browning Library<option>					
+       <option value="browse/browse_bkc1.html">Baylor University, Keston Center for Religion, Politics, and Society</option>
+       <option value="browse/browse_bpll1.html">Baylor University, Political Materials at the W.R. Poage Legislative Library</option>
+       <option value="browse/browse_btc1.html">Baylor University, The Texas Collection</option>					
+       <option value="browse/browse_cu1.html">Concordia University Texas Historical Online Collection</option>
+       <option value="browse/browse_tamu1.html">Cushing Memorial Library, Texas A &amp; M University</option>
+       <option value="browse/browse_drt1.html">Daughters of the Republic of Texas Library at the Alamo</option>
+       <option value="browse/browse_cah1.html">Dolph Briscoe Center for American History, University of Texas at Austin</option>
+       <option value="browse/browse_bhc1.html">El Paso Public Library, Border Heritage Center</option>
+       <option value="browse/browse_hrc1.html">Harry Ransom Humanities Research Center, University of Texas at Austin</option>
+       <option value="browse/browse_tmc1.html">Houston Academy of Medicine-Texas Medical Center Library</option>
+       <option value="browse/browse_houpub1.html">Houston Public Library, Houston Metropolitan Research Center</option>
+       <option value="browse/browse_hrdi1.html">Human Rights Documentation Initiative, University of Texas at Austin</option>
+       <option value="browse/browse_lu1.html">Lamar University, Archives and Special Collections</option>
+       <option value="browse/browse_ojac1.html">Robert E. Nail, Jr. Historical Archives at Old Jail Art Center</option>
+       <option value="browse/browse_sama1.html">San Antonio Municipal Archives</option>
+       <option value="browse/browse_sjmh1.html">San Jacinto Museum of History</option>
+       <option value="browse/browse_smu1.html">Southern Methodist University</option>
+       <option value="browse/browse_tech1.html">Southwest Collection/Special Collections Library, Texas Tech University</option>
+       <option value="browse/browse_tcc1.html">Special Collections and Archives, Texas A&amp;M University-Corpus Christi</option>
+       <option value="browse/browse_law1.html">Tarlton Law Library, University of Texas at Austin</option>
+       <option value="browse/browse_tk1.html">Texas A &amp; M University Kingsville, South Texas Archives</option>
+       <option value="browse/browse_dpub1.html">Texas/Dallas History and Archives Division, Dallas Public Library</option>
+       <option value="browse/browse_glo1.html">Texas General Land Office Archives and Records</option>
+       <option value="browse/browse_tslac1.html">Texas State Library and Archives</option>
+       <option value="browse/browse_tsu1.html">Texas State University</option>
+       <option value="browse/browse_twu1.html">Texas Woman's University, the Woman's Collection</option>
+       <option value="browse/browse_thl1.html">Tyrrell Historical Library, Beaumont Public Library System</option>
+       <option value="browse/browse_houston1.html">University of Houston Libraries, Special Collections</option>
+       <option value="browse/browse_unt1.html">University of North Texas Archives</option>
+       <option value="browse/browse_mlsc1.html">University of North Texas Music Library Special Collections</option>
+       <option value="browse/browse_ust1.html">University of St. Thomas Archives</option>
+       <option value="browse/browse_utarl1.html">University of Texas at Arlington Libraries, Special Collections</option>
+       <option value="browse/browse_utep1.html">University of Texas at El Paso</option>
+       <option value="browse/browse_hscsa1.html">University of Texas Health Science Center at San Antonio</option>
+       <option value="browse/browse_lsc1.html">University of Texas H. J. Lutcher Stark Center</option>
+       <option value="browse/browse_utmda1.html">University of Texas M.D. Anderson Cancer Center</option>
+       <option value="browse/browse_utmb1.html">University of Texas Medical Branch – Moody Medical Library</option>
+       <option value="browse/browse_utsa1.html">University of Texas at San Antonio</option>
+       <option value="browse/browse_tyl1.html">University of Texas at Tyler, University Archives and Special Collections</option>
+       <option value="browse/browse_tva1.html" >Vietnam Center and Archive, Texas Tech University</option>
+       <option value="browse/browse_rice1.html">Woodson Research Center, Rice University</option>
+   </select>
+   </div>
+  <button type="submit" class="btn btn-success btn-block">Search</button><br>
+  <a href="#">Advanced Search</a><br>
+  <a href="#">List of TARO Repositories</a><br>
+  <a href="#">Map of TARO Repositories</a>
+</form>
+</div>
+
+      </div>
+    </div>
+<!-- Add Repository Map Below, another jumbotron container maybe -->	
+
+
+	  <div class="col-sm-8 col-sm-offset-2">  
+		<div class="embed-responsive embed-responsive-16by9">
+			<!--<img src="images/TAROmap.png" class="img-rounded" height="300px" />-->
+			<iframe class="embed-responsive-item" width="500" height="200" scrolling="no" frameborder="no" src="https://fusiontables.google.com/embedviz?q=select+col2+from+1EXrcRNSL61_4tqLLSC1KTifKsghIjMXWsXeBt7MT&amp;viz=MAP&amp;h=false&amp;lat=31.73726739466772&amp;lng=-98.47719290937493&amp;t=1&amp;z=6&amp;l=col2&amp;y=2&amp;tmplt=2&amp;hml=ONE_COL_LAT_LNG"></iframe>
+		</div> 
+	</div>
+
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>About TARO</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Latest TARO News</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Join TARO</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p><a href="https://legacy.lib.utexas.edu/taro/admin/">TARO Administrative Pages</a><br />Copyright &copy; <a href="http://www.utexas.edu/">The University of Texas at Austin</a>.<br />
+      Produced by <a href="http://www.lib.utexas.edu/">The University of Texas Libraries</a>.</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
+
